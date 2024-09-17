@@ -1,93 +1,114 @@
+/* General body styles */
 body {
-    background-image: url("beans.jpg");
-    font-family: sans-serif;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-  
-  .established {
-    font-style: italic;
-  }
-  
-  h1, h2, p {
-    text-align: center;
-  }
-  
-  .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-  }
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  hr {
-    height: 2px;
-    background-color: brown;
-    border-color: brown;
-  }
-  
-  .bottom-line {
-    margin-top: 25px;
-  }
-  
-  h1, h2 {
-    font-family: Impact, serif;
-  }
-  
-  .item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
-  
-  .flavor, .dessert {
-    text-align: left;
-    width: 75%;
-  }
-  
-  .price {
-    text-align: right;
-    width: 25%;
-  }
-  
-  /* FOOTER */
-  
-  footer {
-    font-size: 14px;
-  }
-  
-  .address {
-    margin-bottom: 5px;
-  }
-  
-  a {
-    color: black;
-  }
-  
-  a:visited {
-    color: black;
-  }
-  
-  a:hover {
-    color: brown;
-  }
-  
-  a:active {
-    color: brown;
-  }  
+    background-image: url("beans.jpg"); /* Background image for the page */
+    font-family: sans-serif; /* Font for the page */
+    padding: 20px; /* Padding around the page */
+}
+
+/* Styles for the main heading */
+h1 {
+    font-size: 40px; /* Font size for main heading */
+    margin-top: 0; /* No top margin */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+/* Styles for secondary headings */
+h2 {
+    font-size: 30px; /* Font size for secondary headings */
+}
+
+/* Styles for the established text */
+.established {
+    font-style: italic; /* Italic style for established text */
+}
+
+/* Text alignment for headings and paragraphs */
+h1, h2, p {
+    text-align: center; /* Center-align text */
+}
+
+/* Menu container styles */
+.menu {
+    width: 80%; /* Width of the menu container */
+    background-color: burlywood; /* Background color of the menu */
+    margin-left: auto; /* Center-align horizontally */
+    margin-right: auto; /* Center-align horizontally */
+    padding: 20px; /* Padding inside the menu container */
+    max-width: 500px; /* Maximum width of the menu container */
+}
+
+/* Styles for images */
+img {
+    display: block; /* Display images as block elements */
+    margin-left: auto; /* Center-align horizontally */
+    margin-right: auto; /* Center-align horizontally */
+}
+
+/* Styles for horizontal rules */
+hr {
+    height: 2px; /* Height of horizontal rule */
+    background-color: brown; /* Background color of horizontal rule */
+    border-color: brown; /* Border color of horizontal rule */
+}
+
+/* Styles for the bottom horizontal rule */
+.bottom-line {
+    margin-top: 25px; /* Space above the bottom horizontal rule */
+}
+
+/* Font styles for headings */
+h1, h2 {
+    font-family: Impact, serif; /* Font for headings */
+}
+
+/* Styles for menu item paragraphs */
+.item p {
+    display: inline-block; /* Display paragraphs as inline-block */
+    margin-top: 5px; /* Space above paragraphs */
+    margin-bottom: 5px; /* Space below paragraphs */
+    font-size: 18px; /* Font size for item text */
+}
+
+/* Styles for flavor and dessert names */
+.flavor, .dessert {
+    text-align: left; /* Left-align text */
+    width: 75%; /* Width for flavor and dessert names */
+}
+
+/* Styles for price */
+.price {
+    text-align: right; /* Right-align text */
+    width: 25%; /* Width for price */
+}
+
+/* FOOTER STYLES */
+
+/* Styles for footer */
+footer {
+    font-size: 14px; /* Font size for footer text */
+}
+
+/* Styles for address in the footer */
+.address {
+    margin-bottom: 5px; /* Space below address */
+}
+
+/* Styles for links */
+a {
+    color: black; /* Color for links */
+}
+
+/* Styles for visited links */
+a:visited {
+    color: black; /* Color for visited links */
+}
+
+/* Styles for hovered links */
+a:hover {
+    color: brown; /* Color when hovering over links */
+}
+
+/* Styles for active links */
+a:active {
+    color: brown; /* Color when link is active */
+}
